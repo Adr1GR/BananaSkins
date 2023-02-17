@@ -1,0 +1,51 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "./utils/colors";
+
+body {
+    background-color: $body-background;
+    //color: $body-text;
+}
+
+
+
+.principal-color {
+  background-color: $header-principal;
+}
+
+.principal-color-text {
+  color: $header-principal;
+}
+
+.title-color {
+  color: $header-title;
+}
+
+.links-container-colors {
+    background-color: $header-links-container;
+
+    a {
+        color: $header-link;
+
+        &:hover {
+            color: $header-link-hover;
+        }
+    }
+}
+
+.button-color {
+    background-color: $header-button;
+    color: $header-title;
+    &:hover {
+        background-color: $header-button-hover;
+    }
+}
+
+.principal-text {
+  h1, p {
+    color: $principal-text;
+  }
+}
+

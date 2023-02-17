@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  background-color: #223843;
+}
+
+.principal-color {
+  background-color: #D46F12;
+}
+
+.principal-color-text {
+  color: #D46F12;
+}
+
+.title-color {
+  color: #FFF;
+}
+
+.links-container-colors {
+  background-color: #FFF;
+}
+.links-container-colors a {
+  color: #6d6d6d;
+}
+.links-container-colors a:hover {
+  color: #000000;
+}
+
+.button-color {
+  background-color: #D46F12;
+  color: #FFF;
+}
+.button-color:hover {
+  background-color: #D46F12;
+}
+
+.principal-text h1, .principal-text p {
+  color: #FFF;
+}/*# sourceMappingURL=main.css.map */
